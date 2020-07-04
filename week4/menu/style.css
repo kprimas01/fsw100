@@ -1,0 +1,86 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .topnav a{
+        float: left;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 100px;
+ }
+    .topnav a:hover {
+        background-color: darkgreen;
+        color: black;
+}
+    .topnav a:hover {
+        background-color: cornflowerblue;
+        color: red;
+}
+    div.a{
+        text-align:right;
+}
+    div {
+        background-color: chartreuse;
+        width: 300px;
+        border:15px darkblue;
+        padding: 50px;
+        margin: 20px;
+}
+.Breakfest {
+    position: relative;
+    left: 100px;
+}
+.Lunch { 
+    position: relative;
+    left: 150px;
+
+}
+.Dinner{
+    position: relative;
+    left: 200px;
+    }
+
+.Dranks {
+    position: relative;
+    left: 300px;
+}
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    .space-one {
+        display: inline-block;
+    }
+    .space-two {
+        display: inline-block;
+    }
+    .box-model {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .image {
+        right: 500px; 
+        bottom: 60px;
+        height: auto;
+        top: 20px;
+        border: 2px solid red;
+    
+    }
+    
+    
+
+
+    
+    
+    
+
+    
+    
+    
+
+
+
+    

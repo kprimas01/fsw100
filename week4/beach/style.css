@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+    .navbar {
+
+    position: fixed;
+    width: 100%;
+    background-color: red;
+
+}
+
+.sun {
+    position: relative;
+    left: 100px;
+}
+.beach {
+    position: relative;
+    left: 150px;
+}
+.hotel {
+    position: relative;
+    left: 300px;
+    }
+.about {
+    position: relative;
+    left: 300px;
+}
+    body, html {
+         margin: 0;
+         padding: 0;
+     }
+     .space-one {
+         display: inline-block ;
+     } 
+     .space-two{ 
+         display: inline-block;
+     }
+     .box-model {
+         height: 100px;
+         width: 100;
+     }
+   
+    .image-1 {
+    
+        left: 50px;
+        bottom: 60px;
+        width: 20%;
+        height: 20%;
+        top: 200px;
+        text-align: left;
+        border: 2px solid red;
+    }
+    .image-2 {
+        
+        left: 50px;
+        bottom: 100px;
+        width: 20%;
+        height: 20%;
+        top: 100px;
+        border: 2px solid red;
+    }
+    .image-3 {
+    
+        right: 50px;
+        bottom: 100px;
+        width: 20%;
+        height: 20%;
+        top: 300px;
+        border: 2px solid red ;
+    }
+    /* .image-1 {
+        width: 20%;
+        height: 20%;
+
+    }
+    .image-2 {
+        width: 20%;
+        height: 20%;
+    }
+    .image-3 {
+        width: 20%;
+        height: 20%;
+    } */
+    .class-a {
+        bottom: 300px;
+     
+    }
+
+    
+
+
+        
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
+
