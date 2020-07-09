@@ -1,0 +1,43 @@
+ html,body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+ 
+ #grid-container {
+     display: grid;
+     grid-template-rows:
+ }
+    
+ 
+
+    header{
+        @media (max-width: 768px)
+        font-size: 22px;
+        background-color:#F5C6D6 ;
+    
+    }
+     nav{
+        
+         background-color: #ee2e84;
+        
+     }
+     main{
+    
+         background-color: #85cfd8;
+        
+     }
+     span{
+    
+         background-color: #8dc63f;
+         
+        
+     }
+     footer{
+        background-color: #e76e34;
+ 
+
+
+
+    
