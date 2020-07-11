@@ -7,35 +7,55 @@
  
  #grid-container {
      display: grid;
-     grid-template-rows:
+     grid-template-columns:repeat(4,1fr)
  }
+ #box1{
+    height:75px ;
+    background-color:#F5C6D6 ;  
+ }
+ #box2{
+     height: 75px;
+     background-color:#EE2E84 ;
+    
+ }
+ #box3{
+     height: 75px;
+     background-color: #EE2E84;
+
+ }
+ #box4{
+    height: 75px;
+    background-color:#EE2E84 ;
+ }
+ #box5{
+    height: 75px;
+    background-color:#EE2E84 ;
+ }
+ #box6{
+     height: 75px;
+     background-color:#85CFD8 ;
+
+ }
+ #box7{
+     height:75px ;
+     background-color:#85CFD8 ;
+
+ }
+ #box8{
+     height: 75px;
+     background-color:#8DC63F ;
+
+ }
+ #box9{
+    height: 75px;
+    background-color:#E76E34 ;
+ }
+
     
  
 
-    header{
-        @media (max-width: 768px)
-        font-size: 22px;
-        background-color:#F5C6D6 ;
-    
-    }
-     nav{
-        
-         background-color: #ee2e84;
-        
-     }
-     main{
-    
-         background-color: #85cfd8;
-        
-     }
-     span{
-    
-         background-color: #8dc63f;
-         
-        
-     }
-     footer{
-        background-color: #e76e34;
+   
+     
  
 
 
