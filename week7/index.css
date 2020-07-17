@@ -1,0 +1,125 @@
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a :hover{
+    background: #ddd;
+    color: black;
+}
+.main{
+    margin-top: 30px;
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+}
+    .column{
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    .column img {
+        margin-top: 80px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    @media screen and (max-width: 800px){
+        .column{
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+    @media screen and (max-width: 600px){
+        .column{
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+     div{
+         width: 500px;
+         height: 200px;
+         display: block;
+         position: relative;
+     }
+div::after{
+    content:"";
+    background: url(https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) ;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    position: absolute;
+    z-index: -1;
+}
+<style>
+*{
+    box-sizing: border-box;
+}
+.columns{
+    float: right;
+    width: 33.3%;
+    padding: 8px;
+}
+.price{
+    list-style-type: none;
+    border: 1px solid #eee ;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.price:hover{
+    box-shadow: 0 8px 0 rgba(red, green, blue, alpha);
+}
+.price .header{
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+
+}
+.button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+    .columns{
+        width: 100%;
+    }
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22PX;
+    
+}
+body{ background-color: pink;}
+
+div.a {
+    font-family: cursive;
+    text-align: right;
+
+}
