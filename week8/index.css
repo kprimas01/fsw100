@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+background-color: plum;
+}
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    font-family: sans-serif;
+}
+.container nav.desk{
+    width: 100%;
+    background: #364a4b;
+    height: 60px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0,14);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav.desk ul{
+    list-style: none;
+    width: 75%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+nav.desk ul li{
+    width: 20%;
+    float: left;
+    line-height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease ;
+}
+nav.desk ul li:hover{
+    background-color: orangered;
+
+}
+nav.desk ul li .active{
+    background:black ;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav.mob{
+    display: block;
+
+}
+
+@media screen and (max-width:700px){
+    .nav.desk{
+        display: none;
+    }
+}
+
+*{
+    box-sizing: border-box;
+
+}.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+img {
+    width: 30%;
+    height: auto;
+
+
+}
+img{
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+    body{
+        font-family: "sofia";
+        font-size: 22px;
+    }
+
+    
+
+
+    
+
+        
+    
+    
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@
     width: 100%;
 }
 .navbar a{
-    float: left;
+    float: middle;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -21,7 +21,7 @@
     margin-top: 30px;
 }
 .column{
-    display: flex;
+    display: relitive;
     flex-wrap: wrap;
     padding: 0 4px;
     
@@ -42,7 +42,7 @@
             max-width: 50%;
         }
     }
-    @media screen and (max-width: 600px){
+    @media screen and (min-width: 200px){
         .column{
             flex: 100%;
             max-width: 100%;
@@ -65,12 +65,37 @@ div::after{
     position: absolute;
     z-index: -1;
 }
-<style>
+.style
+
 *{
     box-sizing: border-box;
 }
+.column{
+    float: right;;
+    width: 100%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+    box-sizing: border-box;
+
 .columns{
-    float: right;
+    float: left;
     width: 33.3%;
     padding: 8px;
 }
@@ -116,10 +141,27 @@ main{
     font-size: 22PX;
     
 }
-body{ background-color: pink;}
-
-div.a {
-    font-family: cursive;
-    text-align: right;
+body{ background-color: plum;
 
 }
+
+div.a{
+    position: relative;
+    widows: 400px; 
+    height: 200px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
