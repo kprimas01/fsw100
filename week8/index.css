@@ -8,12 +8,12 @@ background-color: plum;
     user-select: none;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Red Rose', cursive;
 }
 .container nav.desk{
     width: 100%;
     background: #364a4b;
-    height: 60px;
+    height: 40px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0,14);
     position: fixed;
     top: 0;
@@ -64,7 +64,7 @@ nav.mob{
 }.column{
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 10px;
 }
 .row::after{
     content: "";
@@ -83,6 +83,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+
     }
     .footer{
         position: fixed;
@@ -96,7 +97,34 @@ img{
     body{
         font-family: "sofia";
         font-size: 22px;
-    }
+}
+main{
+    margin-left: 120px;
+}
+
+.box{
+ display: block;
+ float: left;
+ width: 20%;
+ padding: 10px;
+ padding-left: 12px;
+
+
+}
+
+header{
+    display: block;
+    padding: 60px;
+
+}
+img{
+    display: block;
+    /* margin-left: auto; */
+    
+    /* margin-right: auto; */
+    width: 40%;
+    
+}
 
     
 
